@@ -7,16 +7,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4  # Usa v4 invece di v3
 
       - name: Compile LaTeX to PDF
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: main.tex  # Cambia "main.tex" con il tuo file principale .tex
+          root_file: main.tex  # Cambia con il nome del tuo file .tex principale
 
       - name: Upload PDF artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4  # Usa v4 invece di v3
         with:
           name: Compiled-PDF
-          path: main.pdf  # Assicurati che il file generato sia corretto
-
+          path: main.pdf
