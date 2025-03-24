@@ -6,13 +6,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
       - name: Compile LaTeX to PDF
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: main.tex
-      - name: Upload PDF
+          root_file: main.tex  # Cambia "main.tex" con il tuo file principale .tex
+
+      - name: Upload PDF artifact
         uses: actions/upload-artifact@v3
         with:
           name: Compiled-PDF
-          path: main.pdf
+          path: main.pdf  # Assicurati che il file generato sia corretto
+
