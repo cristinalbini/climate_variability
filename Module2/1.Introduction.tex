@@ -150,7 +150,7 @@ Fig.\ref{fig:thermal structure} shows the thermal structure of the atmosphere. Y
 [0.2 cm]
 
 From fig.\ref{fig:vert structure of T}, we see that temperature overall decreases when you go from the surface up to the tropopause and it decreases when you move from the tropical regions poleward. In the tropics temperature doesn't vary much, while in the extra tropics you have a large gradient $\leftrightarrow$ tropospheric jet streams are placed here: here there's the largest meridional temperature gradient and because of the thermal wind balance this is consistent with a vertical wind shear (wind grows very rapidly in the jet core where there's large thermal gradient).
-\begin{figure}[htpb]
+\begin{figure}[h]
     \centering
     \includegraphics[width=0.5\linewidth]{uploads/Thermal structure.png}
     \caption{Vertical structure of temperatures in the zonal mean.}
@@ -159,7 +159,7 @@ From fig.\ref{fig:vert structure of T}, we see that temperature overall decrease
 
 
 Now let us look at where water vapor is in the atmosphere. The concentration of water vapor is very high near the surface and near the Tropics, it drops moving upward. The zonal mean of specific humidity closely mirrors the distribution of temperature. Where is warmer you have the highest concentration of water vapor. 
-\begin{figure}[htpb]
+\begin{figure}[h]
     \centering
     \includegraphics[width=0.5\linewidth]{uploads/specific humidity.png}
     \caption{Zonal mean of specific humidity: where water vapor is in the atmosphere.}
@@ -170,7 +170,7 @@ The relationship between temperature and humidity is expressed by the Clausius-C
     \frac{dq_s}{q_s}\simeq \color{RawSienna}\left(\frac{L}{R_vT^2}\right)\color{black}dT
 \end{equation}
 where on the left there's the relative change of specific humidity, the \textcolor{RawSienna}{fraction} on the right is the relative latent heat proportional to a variation in temperature and to $R_v$ gas constant for water vapor, with $L\simeq 2.5 \quad 10^6$ J/K, $R_v\simeq 461$ J/(K kg) and $T\simeq 300$ K $\simeq 20$ °C, we obtain a proportional factor $\alpha \simeq 7\%$, meaning that for every $1$°C warming, the relative humidity increases of $7\%$.
-\begin{figure}[htpb]
+\begin{figure}[h]
     \centering
     \includegraphics[width=0.5\linewidth]{uploads/exact CC.png}
     \caption{Exact solution of the Clausius-Clapeyron equation. NB in very cold conditions the atmosphere is dry.}
@@ -178,7 +178,7 @@ where on the left there's the relative change of specific humidity, the \textcol
 \end{figure}
 
 This plot shows zonal mean time mean meridional velocity. Around the Eq there’s an area with large ascent. Two meridional circulations associated with Hadley cells. There’s a better way to see: the meridional stream function. 
-\begin{figure}[htpb]
+\begin{figure}[h]
     \centering
     \includegraphics[width=0.5\linewidth]{uploads/mean meridional circulation.png}
     \caption{Mean meridional circulation}
@@ -186,7 +186,7 @@ This plot shows zonal mean time mean meridional velocity. Around the Eq there’
 \end{figure}
 \subsection{Stream function}
 On fig.\ref{fig:meridional streamf} lines of constant meridional stream function. In gen the flow is along lines on contant streamfunction. 
-\begin{figure}
+\begin{figure}[h]
     \centering
     \includegraphics[width=0.5\linewidth]{uploads/streamf.png}
     \caption{Meridional mass streamfunction (contours) and diabatic heating rate (shading)}
@@ -216,16 +216,20 @@ that is called the \emph{meridional streamfunction}
 
 Tropics associated with ITCZ. 
 We described the mean meridional circulation with the meridional streamfunction. 
-$$\psi_M(\phi,p,t)$$ formed like a 2D divergence equation. the streamfunction is useful as it defines the stream of the flow (how wide is the Hadley cell) and also the strength of the overturning. In the scientific literature to define the eedge of the Hadley cell in the middle of the troposphere (500m). You find the latitude where the $\psi_M=0$. People defined this latitude as the edge of the Hadley cell. This is important because the weather and climate in the Tropics (tropical circulation) is always below the Hadley cell. Research question: you have to find out if the Hadley cell is moving foreward: under the effect of global warming cell expands. Overturning tropical circulation is getting weaker due to global warming: you can take the different of the streamfunction: streamflow over two points: you could take the difference between the two points. The max of the Hadley cell equals the mass flow transported: how strong or weak it is. If the Hadley cell expands the Tropics get closer to the poles. Where there's the downwelling branch of the Hadley cell we have the dry zones (while upwelling we have precipitations). If the Hadley expands, the dry zones expand poleward. 
+$$\psi_M(\phi,p,t)$$ is formed like a 2D divergence equation. The streamfunction is useful as it defines the stream of the flow (how wide the Hadley cell is) and also the strength of the overturning meridional circulation. In the scientific literature it is used to define the edge of the Hadley cell in the middle of the troposphere (500m). You find the latitude of the limit of the cell where the $\psi_M=0$: people defined this latitude as the edge of the Hadley cell. This is important because the weather and climate in the Tropics (tropical circulation) is always below the Hadley cell. 
+
+
+
+\textit{Research question}. You have to find out if the Hadley cell is moving foreward: under the effect of global warming the cell expands. Overturning tropical circulation is getting weaker due to global warming: you can take the difference of the streamfunction $\rightarrow$ as it's streamflow over two points you could take the difference between the two points. The maximum of the Hadley cell equals the mass flow transported: how strong or weak it is. If the Hadley cell expands the Tropics get closer to the poles. Where there's the downwelling branch of the Hadley cell we have the dry zones (while upwelling we have precipitations). If the Hadley expands, the dry zones expand poleward. 
 Mean meridional circulation, function of $(\phi,p,t)$ often we look it as annual mean but we can look it as seasonal mean. 
-\begin{figure}
+\begin{figure}[h]
     \centering
     \includegraphics[width=0.5\linewidth]{uploads/winds.png}
-    \caption{Enter Caption}
-    \label{fig:enter-label}
+    \caption{Contributions of the eastern and western hemispheres to the annual mean pattern of \ref{fig:mass}. The streamfunction cannot be computed for partial zonal averages, so the overturning circulation is represented by vectors representing the average of $\bar{v}$ and $\bar{\omega}$ over the respective hemispheres. The narrow chimney of ascent in the western hemisphere corresponds to the ITCZ.}
 \end{figure}
-Longitudinally the mean meridional circulation can have different shape. The annual mean Hadley cell is quite symmetric seasonally due to larger than the other (smaller and weaker). Seasonal evolution of the Hadley cell. There's one cell much stronger that goes as uprising in the SH and upwelling in the NH. 
-\begin{figure}[htpb]
+Longitudinally the mean meridional circulation can have different shape. The annual mean Hadley cell is quite symmetric seasonally due to one cell larger than the other (smaller and weaker). 
+\paragraph{Seasonal evolution of the Hadley cell} There's one cell much stronger that goes as uprising in the SH and upwelling in the NH. 
+\begin{figure}[h]
     \centering
     \includegraphics[width=0.5\linewidth]{uploads/meridional stream.png}
     \caption{Meridional mass stream function (contours) and diabatic heating rate (shading), seasonal variation}
@@ -237,50 +241,70 @@ Longitudinally the mean meridional circulation can have different shape. The ann
     \item The weaker one has uprising and downward branch in the summer. It gets weaker and narrower.
 \end{itemize}
 Seasonally these two change a lot. These variations are associated with monsoons. They start when there is a strong rearragement of the Hadley cell (April, May). 
-These variations are associated with monsoons in the Northen Hemisphere in summer (we have uprising and it rains) with down-welling in the other hemisphere. From 20 N to 10 S, Hadley cell shifts and the winter cell comes forward: understanding this shift is crucial to understand monsoons. 
-
-Looking at the annual mean: the monsoons start when there's strong rearragement: FIG. ANNUAL MEAN
-representing a shift northward. Mean meridional circulation is associated with monsoons, rainfalls and position of the dry zones. 
+These variations are associated with monsoons in the Northen Hemisphere in summer (we have uprising and it rains) with down-welling in the other hemisphere. From $20$ N to $10$ S, Hadley cell shifts and the winter cell comes forward: understanding this shift is crucial to understand monsoons. 
 
 
-Research question: understanding how MMC changes with global warming is crucial: climate models project on expansion of Hadley cell. Wakening of the overturning meridional circulation also affects other circulation, like Walker circulation (that is East-West), where you have down-welling in the Pacific. 
+Looking at the annual mean \ref{fig:meridional streamf} the monsoons start when there's strong rearragement: representing a shift northward. Fig.\ref{fig:meridional streamf} shows tjhe climatological mean meridional mass streamfunction and diabatic heating rate per day (colored shading). The zero contour is thickened. The circulation is clockwise around the maxima and counterclockwise around the minima in $\psi$ field. The Hadley cells flank the band of tropical ascent, marked by the narrow maximum in $Q$. They are flanked by much weaker Ferrel cells centered in midlatitudes.
+The mean meridional circulation is associated with monsoons, rainfalls and position of the dry zones. 
 
 
-Remember: condansation heats the atmosphere, while drops evaporating cools the atmosphere. Fig.\ref{fig:mass} shows that a large amout of heat is release because there's condensation. Because of convection the atmosphere is heated due to thunderstorms. Where the atmosphere is cold there's emission of IR radiation. You can conclude that the atmosphere is heated up in the middle of the troposphere and tropical rainfalls where you have monsoons in tropical convergence zone and near the surface (fluxes of sensitive heat and latent heat) CHECK BOOK.
+\textit{Research question}: understanding how MMC changes with global warming is crucial. Climate models project on expansion of Hadley cell. Wakening of the overturning meridional circulation also affects other circulation, like Walker circulation (that is East-West), where you have down-welling in the Pacific. 
 
 
-How do we identify where the transient acts? There are pars of the world where circulation is zero. If we look at a single day you see a different structure evolving that has both vertical and meridional component $\leftrightarrow \quad \bar{v}=0 \quad v'\neq 0$. We can look at the variance $\overline{v'^2}$ or the standard deviation $\sigma (v')=\sqrt{\overline{v'^2}}$ that can be different from zero even in the case of $\overline{v'}=0$. This is a good proxy to identify where the transient is acting and how strong. 
+Recall that condensation heats the atmosphere, while drop evaporating cool the atmosphere. Fig.\ref{fig:mass} shows that a large amount of heat is release because there's condensation. Because of convection the atmosphere is heated due to thunderstorms. Where the atmosphere is cold there's emission of IR radiation. You can conclude that the atmosphere is heated up in the middle of the troposphere and tropical rainfalls where you have monsoons in tropical convergence zone and near the surface (fluxes of sensitive heat and latent heat).
+\subsection{Eddies and Transients}
+
+How do we identify where the transient acts? There are pars of the world where circulation is zero. If we look at a single day we'll see a different structure evolving that has both vertical and meridional component $\leftrightarrow \quad \bar{v}=0 \quad v'\neq 0$. We can look at the variance $\overline{v'^2}$ or the standard deviation $\sigma (v')=\sqrt{\overline{v'^2}}$ that can be different from zero even in the case of $\overline{v'}=0$. This is a good proxy to identify where the transient is acting and how strong. 
 
 Time mean of geopotential height sigma figure. $\sigma (v'_{200})$ meridional wind at $200$ hPa in a single day: there are two regions in the extra tropics where it is higher: stormtracks. At tropics circulation is more stable in time (a lot of transients = very large $\sigma\rightarrow v'\neq 0$). 
-
+\paragraph{Stationary waves}
+Fig.\ref{fig:sigma vmean} provide a global survey of the amplitude of the DJF stationary waves in the climatological mean meridional wind components on latitude circles. There's a maximum in $\sigma(\bar{v}^*)$ at $52$ °N. 
 \begin{figure}
     \centering
     \includegraphics[width=0.5\linewidth]{uploads/sigma vmean.png}\includegraphics[width=0.5\linewidth]{uploads/sigma vmean world.png}
-    \caption{$\sigma(\bar{v})$}
+    \caption{$\sigma(\bar{v}^*)$, climatological mean longitudinal standard deviation averaged around latitude circles in the stationary waves. The zonally average reference field for computing the standard deviation in each panel is the seasolan mean, not the annual mean.}
     \label{fig:sigma vmean}
 \end{figure}
-\begin{figure}[htpb]
+Fig.\ref{fig:sigma vmean} provide a global survey of the amplitude of the DJF stationary waves in the climatological mean meridional wind component $\bar{v^*}$ on latitude circles. 
+
+%%%not done --------------------------------------
+\paragraph{Transient Zonally Symmetric Variability}
+Seasonal variations in the climatology of the zonal ...
+
+Large nonseasonal variability is observed. Fig.libro shows the standard deviations of $[u]'$ and $[v]'$ about their respective seasonally varying climatological means. They are computed on the basis of daily data and thus include variability on timescales ranging from days to years, but since the reference state is seasonally varying, it specifically excludes the variance associated with seasonality. In general, $\sigma([u]')>>\sigma([v]')$: just as the kinetic energy of the climatological mean zonally symmetric circulation is dominated by the zonal wind component, the same is true of the variations about that climatology. That of $\sigma([v]')$ is so small reflects the inhibition of the meridional motion of zonally symmetric rings of air on a rotating planet, a constraint imposed by the conservation of angular momentum. The only notable feature in the distribution of $\sigma([v'])$ is the pair of equatorial maxima, one in the boundary layer and the other just above the $200$ hPa level. Anomalies in $[v]$ at these levels tend to occur out-of-phase with one another (not shown). These features are associated with nonseasonal meridional shifts in the Hadley cell that mirror the seasonal shifts in fig.\ref{fig:mass}, but occur on a wide range of timescales. 
+%---------------------------------------------------
+
+\paragraph{Transient Eddies}
+After the variance associated with the stationary waves and the nonseasonal zonally symmetric variability is accounted for, there remains the variability associated with the transient eddies, which are neither anchored in place longitudinally nor zonally symmetric. It is the only kind of eddy-related variability that appears on a rotating planet with zonally symmetric, temporally invariant boundary conditions and external forcing. The distinction between all transients and transient eddies is subtle and has often been ignored in the literature. For example in extra tropical latitudes the transient and transient eddy components of the $v$ field are virtually indistinguishable. Accordingly, we will denote the transient eddy component of $v$ simply as $v'$ rather that $v'^*$. Notable exemples are the extratropical cyclones and the so-called baroclinic waves in which they are embedded. The meridional cross section of $\sigma(v')$ shown in fig.\ref{fig:sigma vtrans}, is dominated by broad maxima centered ad $\sim 50$°N/S, just above the $300$ hPa level. The transient eddies are stronger that the stationary waves fig.\ref{fig:sigma vmean} by about a factor of two. At higher levels in the stratosphere, the variability peaks at higher latitudes, around the periphery of the polar cap regions, where it is roughly comparable to that associated with the stationary waves at the same level. The corresponding distribution of zonally varying $\sigma(v')$ at the $200$ hPa level fig.\ref{fig:sigma v'} confirm that the upper tropospheric, midlatitude maximum in transient eddy amplitude is a robust feature that is present at almost all longitudes. We will refer to this feature as the midlatitude "\emph{storm track}". 
+\begin{figure}[h]
     \centering
     \includegraphics[width=0.5\linewidth]{uploads/sigma vtrans.png}\includegraphics[width=0.5\linewidth]{uploads/sigma vtrans world.png}
-    \caption{$\sigma(v')$}
+    \caption{Zonally averaged temporal standard deviation of the meridional wind component $v$ based on daily data, referred to as the \emph{transient}, for all calendar months, computed at each grid point and level. The temporal standard deviations about the seasonally varying climatological means $\sigma(v^*)$ and $\sigma(v'^*)$ are virtually indistinguishable, from which it follows that these patterns can be interpreted as representative of the transient eddies. The maxima in the variance at temperate latitudes are associated with the \emph{storm tracks}.}
     \label{fig:sigma vtrans}
 \end{figure}
 
 Remember: if I have a through there will be a cyclone developing under it.
 
-For each single day you can work out the deviation and square time mean and variance up to 200 hPa: there are two regions on the extra tropics where the variance is larger: they corresponds to storm tracks. Circulation in the tropics is much more stable. These waves that form and moves around mean a lot of transient, reflected in veri large standard deviation in the mean meridional wind almost close to zero (isobars are almost symmetric). 
-\begin{figure}[htpb]
+For each single day you can work out the deviation and square time mean and variance up to $200$ hPa; you'll see that there are two regions on the extra tropics where the variance is larger: they corresponds to storm tracks. Circulation in the tropics is much more stable. These waves that form and move around mean a lot of transient, reflected in very large standard deviation in the mean meridional wind almost close to zero (isobars are almost symmetric). 
+\begin{figure}[h]
     \centering
     \includegraphics[width=0.5\linewidth]{uploads/sigma v(200).png}
-    \caption{$\sigma(v'_{200})$}
+    \caption{Temporal standard deviation of $v'$ at the $200$ hPa level based on year-round data.}
     \label{fig:sigma v'}
 \end{figure}
-Research question: how storm tracks change under global warming. Climate models suggestions show that extra tropical storm tracks will shift poleward with global warming. How do people identify this? Working out standard deviation of meridional wind, you can also other values such as vertical wind: that's a quantity that if you average over time in extra tropics goes to zero. Days with high pressure vertical wind is downward, when cyclone (rains) by def you have upward. When you are in a region with both high and low pressure the average goes to zero, you can use the std dev of $\omega$. One of the best proxies to identify when it rains (fig.\ref{fig:sigma and precipit}). Rain forms in the few km. Transient in the vertical best capture what happens during tropical cyclone. $\sigma(w'_{700})$ is the verticl velocity at $700$ hPa $\sim 3$ km above the surface where condensation happens. In this figure we clearly see N.Atlantic and N.Pacific storm track. 
+
+
+\textit{Research question}: how storm tracks change under global warming. Climate models suggestions show that extra tropical storm tracks will shift poleward with global warming. How do people identify this? Working out standard deviation of meridional wind, you can also other values such as vertical wind: that's a quantity that if you average over time in extra tropics goes to zero.On days with high pressure, the vertical wind is downward, whereas, in the presence of a cyclone (which brings rain), the vertical wind is upward. In regions with both high and low pressure, the average vertical velocity tends to zero. To capture the transient events, you can use the standard deviation of $\omega$, which is one of the best proxies for identifying when it rains (see Fig. \ref{fig:sigma and precipit}). Rain primarily forms in the first few kilometers of the atmosphere. Transients in the vertical are particularly useful for capturing what occurs during tropical cyclones. The $\sigma(w'_{700})$ represents the vertical velocity at 700 hPa, approximately 3 km above the surface, where condensation occurs. In this figure, we clearly observe the North Atlantic and North Pacific storm tracks.
+
 \begin{itemize}
-    \item $\overline{w}_{500}$ mean time vertical velocity correlates well with rain but we don't see the transient. 
-    \item At high latitudes rain is associated with transients. 
-\end{itemize}
-Who studies monsoons focuses on mean flow whereas who studies transients focuses on the variation of the mean flow. 
+\item The mean vertical velocity at $500$ hPa ($\overline{w}_{500}$) correlates well with precipitation, but it does not capture transient events.
+
+ \item In high latitudes, rainfall is associated with transients. 
+ \end{itemize}
+
+Those studying monsoons tend to focus on the mean flow, while those studying transients focus on variations in the mean flow.
+
+ 
 \begin{figure}[htpb]
     \centering
     \includegraphics[width=0.5\linewidth]{uploads/sigma and precipitation.png}
@@ -296,15 +320,15 @@ Who studies monsoons focuses on mean flow whereas who studies transients focuses
 
 
 
-If you look at the mean precipitation you see that the spatial distribution of the vert velocity correlates well with the structure of precipitation but it doesn't for ITCZ: rains at high lat are not associated with mean circulation but with transients: when it rains in high lat is because you have a cyclone, it doesn't rain bc there's high pressure. 
+When examining the mean precipitation, we observe that the spatial distribution of vertical velocity aligns well with the overall structure of precipitation, except for the ITCZ. Precipitation in high latitudes is not linked to the mean circulation but rather to transient events. When it rains in high latitudes, it is typically due to the presence of a cyclone, not because of high pressure.
 
-When we looked at the mean vert velocity: this field correlates with tropical rainfall but it doesn't show storm tracks. You can conclude that tropical rainfall in the ITCZ or monsoons are mostly associated with mean meridional circulation (very nice correlation) and Hadley cells, whereas precipitations in the extra tropics (storm track region) nota associated with the mean circulation, but you see it in the transients (rain in the extra tropic is not associated with persistent phenomena but with transients). 
+When we examined the mean vertical velocity, we observed its correlation with tropical rainfall, although it does not reveal storm tracks. We can conclude that tropical rainfall in the ITCZ or monsoons is primarily linked to the mean meridional circulation (which shows a strong correlation) and the Hadley cells. In contrast, precipitation in the extratropics (storm track region) is not associated with the mean circulation. Instead, it is tied to transient phenomena, as rainfall in the extratropics is linked to transient events rather than persistent patterns. 
 
 
 
 
 \section{The water cycle}
-Transport influenced by the atmospheric general circulation. Evaporation (or evapotranspiration) is a source and precipitation is a sink. Surface runoff (rivers and channel) or underground runoff (groundwater). Atmospheric branch and land branch of the water cycle connected by processes of precipitation and evaporation. Atmosphere contains only 0.001\% of water: it's the smaller reservoir but the most dynamic in terms of transferring water from one place to another.
+Transport is influenced by the atmospheric general circulation. Evaporation (or evapotranspiration) is a source and precipitation is a sink. Surface runoff (rivers and channel) or underground runoff (groundwater). Atmospheric branch and land branch of the water cycle connected by processes of precipitation and evaporation. Atmosphere contains only $0.001$\% of water: it's the smaller reservoir but the most dynamic in terms of transferring water from one place to another.
 \begin{figure}[htpb]
     \centering
     \includegraphics[width=0.5\linewidth]{uploads/water cycle.png}
@@ -336,7 +360,7 @@ clouds are important for radiative balance but in terms of mass of water that th
     W=\int_{p_s}^{0}-\frac{dp}{g}q\quad\text{kg/m}^2
 \end{equation}
 it says how much water vapor you have inside an atmospheric column of section $1\text{ m}^2$, it gives an indication locally on how much water vapor you have (and could be precipitation, usually it precipitates less).
-\begin{figure}[htpb]
+\begin{figure}[h]
     \centering
     \includegraphics[width=0.5\linewidth]{uploads/W.png}
     \caption{Most of the water in atmosphere is concentrated in the Tropics}
@@ -347,13 +371,13 @@ it says how much water vapor you have inside an atmospheric column of section $1
     \text{IVF}=\int_{p_s}^0-\frac{dp}{g}q\mathbf{v}
 \end{equation}
 that is a 2D quantity, meaning that the amount of water vapor transported is moved horizontally through the atmosphere. You integrate over the vertical: we're interested in what happens horizontally.
-\begin{figure}[htpb]
+\begin{figure}[h]
     \centering
     \includegraphics[width=0.5\linewidth]{uploads/VAIA.png}
     \caption{IWVF during Vaia’s high precipitation event }
     \label{fig:VAIA}
 \end{figure}
-In fig.\ref{fig:VAIA} Vaia was a strorm in extra tropical cyclone: strong wind and large precipitation. The arrows show the IWVF, where you have a lot of water vapor in the atmosphere, there was a river of water vapor transported over the Atlantic converging. The atmospheric circulation on that day was so that a lot of water vapor was transported. IWVP is a very important diagnostic tool for weather forecasting. \textit{Atmospheric rivers} are large transport of water vapor from the Tropics to the extra tropics, they stretch seen as interactions between extra tropical ?? they typically impact the West Coast of USA. 
+In fig.\ref{fig:VAIA} Vaia was a strorm in extra tropical cyclone: strong wind and large precipitation. The arrows show the IWVF, where you have a lot of water vapor in the atmosphere, there was a river of water vapor transported over the Atlantic converging. The atmospheric circulation on that day was so that a lot of water vapor was transported. IWVP is a very important diagnostic tool for weather forecasting. \textit{Atmospheric rivers} are large transport of water vapor from the Tropics to the extra-tropics, they stretch seen as interactions between extra-tropical systems, and they typically impact the West Coast of the USA.
 
 In order to see where it's raining, you take the divergence $\nabla\cdot (\text{IVF})$ because divergence tells you where you have a sink or a source: negative value means it's raining. In situations in where the flow is converging somewhat, the inside area will have a negative divergence (convergence); while positive divergence is what divergence literally means. When you take IVF, you work out the divergence: piling up water vapor, it cannot disappear due to conservation of mass: you'll have large precipitation.
 Also, where the field is decreasing you'll have a convergence (negative derivative) you bring in more than you bring out. In a 3D field, divergence of the hor component where it's negative upwelling, positive down-welling, in this case we integrated over the vertical hence it's a 2D field, the only way to get away is by rain.
@@ -374,7 +398,7 @@ Vertical integrated water vapor flux:
 $$\mathbf{Q}=\int_{ps}^0-\frac{dp}{g}d\mathbf{v}$$ how water vapor is moving overall
 
 $P$ how much water is going out from the atmosphere, water is like a sink for the atmosphere: when it rains atm is losing water vapor
-$E$ evapo-transiparion (over land evapor- as it's mediated by land). I is a source of water vapor for the atmposphere. 
+$E$ evapo-transiparion (over land evapor- as it's mediated by land). I is a source of water vapor for the atmosphere. 
 
 We will demostrate balance equation for the vertical integrated water vapor balance eq in the atmosphere
 \begin{equation}\label{eq.W}
@@ -392,7 +416,7 @@ You may now understand why $E$ is a source and $P$ is a sink. The sign of diverg
     \item $\div{F}>0$ it means something is leaving my field
     \item $\div{F}<0$ you have convergence to my field.
 \end{itemize}
-applying this principle to $Q$, in the hor plane, regions where the hor divergence of $Q$ is positive, the flow ($Q$ is associated with $v$) tends to carry water vapor away to certain regions. Carrying water vapor away you're emptying that region: contributing negatively in the balance: decreasing water vapor in that colum. Whereas, converging water vapor in a specific regio, in the balance it contributes positively: increase of water vapor in a given column in time. $W$ can change in time either bc locally it's raining ($P$) or evaporation ($E$) or bc the flow is carrying water vapor in or out. \\
+applying this principle to $Q$, in the horizontal plane, regions where the horizontal divergence of $Q$ is positive, the flow ($Q$ is associated with $v$) tends to carry water vapor away to certain regions. Carrying water vapor away you're emptying that region: contributing negatively in the balance: decreasing water vapor in that column. Whereas, converging water vapor in a specific region, in the balance it contributes positively: increase of water vapor in a given column in time. $W$ can change in time either because locally it's raining ($P$) or evaporation ($E$) or because the flow is carrying water vapor in or out. \\
 
 
 Let's consider a finite region $\mathcal{S}$ (instead of infinitesimal point) and we integrate over that region. $\partial\mathcal{S}$ defines the border of the region:
@@ -409,15 +433,15 @@ using Gauss theorem (from a 2D integral to a 1D integral):
 \end{equation}
 Int od divergence is equal to the flux. The scalar product gives how much goes out ($Q$ and $\hat{n}$ are in the same direction or not). Hence, 
 \[\frac{\partial}{\partial t}\int_{\mathcal{S}}Wd\mathcal{S}=-\oint_{\mathcal{S}} \mathcal{Q}\cdot \hat{n}dl+\int_{\mathcal{S}}(E-P)d\mathcal{S}\]
-how much wv is transported inside this region. divergence associated with a flux inside or outside the flow. 
+how much water vapor is transported inside this region. divergence associated with a flux inside or outside the flow. 
 
 
 Note that in large scale dynamics we don't consider it. More important is the balance eq of $q$.
-We want to determine $\frac{Dq}{Dt}$ (Lagrangian derivative). It tells you how that smt changes following the parcel, sitting over the parcel at each instant you can check how much q stays in the parcel, this rate of change is what we call lagrangian. Wgatever can make $q$ change in the motion:
+We want to determine $\frac{Dq}{Dt}$ (Lagrangian derivative). It tells you how that something changes following the parcel, sitting over the parcel at each instant you can check how much q stays in the parcel, this rate of change is what we call lagrangian. Whatever can make $q$ change in the motion:
 \begin{itemize}
     \item Condensation. Droplets or rain (sink term) that can happen inside the parcel.
     \item droplet falling in the parcel, a part of it can evaporate (source). Part of the rain re-evaporates before it can reach the ground. 
-    \item The parcel goes very close to a liquid surface. Physically there will be diffusion of molecule of water vapor. SOme molecules will just diffuse upwards, meaning that close to liquid surfaces diffusion of water vapor occurs. You can schematize it with a flux $\mathbf{J}$ found near the surface, usually vertical (one component). We're talking about molecular diffusion. NB eddy diffusion is the consequence of turbulence, lots of vortexes. The net effect of all eddies is acting like molecular diffusion: still transfer of water vapor above, that explains latent and sensible heat we found at surface, they are determined by turbulent diff: surf warm atm cold and turbulence kicks off. Transpor prop from surface to the atm. $\mathbf{J}$ means a diffudive water vapor flux, the nature of it can be either molecular or turbulent. In the first few mm you have molecula, then in the first 100m you have turbulent diffusion. $\mathbf{J}$ is again a flux with a divergence, it can change the content of water vapor: $\div{\mathbf{J}}$: "convergence of diffusive water vapor".
+    \item The parcel goes very close to a liquid surface. Physically there will be diffusion of molecule of water vapor. Some molecules will just diffuse upwards, meaning that close to liquid surfaces diffusion of water vapor occurs. You can schematize it with a flux $\mathbf{J}$ found near the surface, usually vertical (one component). We're talking about molecular diffusion. NB eddy diffusion is the consequence of turbulence, lots of vortexes. The net effect of all eddies is acting like molecular diffusion: still transfer of water vapor above, that explains latent and sensible heat we found at surface, they are determined by turbulent diff: surf warm atm cold and turbulence kicks off. Transpor prop from surface to the atm. $\mathbf{J}$ means a diffudive water vapor flux, the nature of it can be either molecular or turbulent. In the first few mm you have molecula, then in the first 100m you have turbulent diffusion. $\mathbf{J}$ is again a flux with a divergence, it can change the content of water vapor: $\div{\mathbf{J}}$: "convergence of diffusive water vapor".
 \end{itemize}
 \begin{align}\label{eq.q}
     \frac{Dq}{Dt}=S(q)\\
@@ -474,5 +498,4 @@ We are interested in what happens in the atm over periods that are long (at leas
 \subsection{Balance of total energy}
 
 \subsection{The angular momentum balance}
-
 
